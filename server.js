@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
+const port = process.env.PORT || 3000
 
 //initialising express
 const app = express();
@@ -37,6 +38,6 @@ app.get('*', (req,res) => {
   return res.send('ERROR 404 : Page not found.')
 })
 //Starting Server
-app.listen(3000,()=> {
+app.listen(port,()=> {
   console.log('Server started on PORT:3000');
 })
