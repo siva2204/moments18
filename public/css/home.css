@@ -48,8 +48,20 @@ body,html{
 	background-color: #ffffff;
 	min-height: 75vh;
 }
+#sponsors{
+	background-color: #ffffff;
+	min-height: 40vh;
+	padding-bottom: 50px;
+}
 
 #about .head{
+	padding: 5vh;
+	font-family: custom_bold;
+	font-size: 3em;
+	/*font-weight: bold;*/
+	text-align: center;
+}
+#sponsors .head{
 	padding: 5vh;
 	font-family: custom_bold;
 	font-size: 3em;
